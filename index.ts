@@ -39,7 +39,7 @@ function sanitizeUrl(input: string) {
 
 export const generateYoutubeThumbnailUrl = (id: string) => {
   return {
-    thumbnail: `https://img.youtube.com/vi/${id}/default.jpg`,
+    thumbnail: `https://img.youtube.com/vi/${id}/maxresdefault.jpg`,
     _data: null,
   };
 };
