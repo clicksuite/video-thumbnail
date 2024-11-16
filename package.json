@@ -1,0 +1,29 @@
+{
+  "name": "@clicksuite/video-thumbnail",
+  "version": "0.1.0",
+  "description": "A simple tool to fetch a video thumbnail from any URL.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@types/node": "^22.9.0",
+    "get-video-id": "^4.1.7",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5"
+  }
+}
